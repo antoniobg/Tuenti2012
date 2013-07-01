@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
  * @author Antonio Borrero Granell
  * 
  */
-public class Keypad {
+public class Challenge1 {
   
 
 	//Characters of each button
@@ -34,7 +34,7 @@ public class Keypad {
 	 * - Capital Letters: false 
 	 * - Initial time: 0
 	 */
-	public Keypad() {
+	public Challenge1() {
 		time = 0;
 		caps = false;
 		posi = 3;
@@ -352,7 +352,7 @@ public class Keypad {
 	
 	public static void main (String args[]) throws IOException{
 		//Keypad
-		Keypad keypad = new Keypad();
+		Challenge1 keypad = new Challenge1();
 		//Array with the times of each line. Time of line i in position i
 		long[] times;
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
